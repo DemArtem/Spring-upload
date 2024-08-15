@@ -4,7 +4,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: demar.demidov@yandex.ru
-    password:
+    password: 535-5.7.8
     properties:
       mail:
         smtp:
