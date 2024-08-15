@@ -1,0 +1,19 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    port: 587
+    username: demar.demidov@yandex.ru
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    debug: true
+protocol: smtp
+test-connection: false
+servlet:
+  multipart:
+  max-file-size: 5MB
